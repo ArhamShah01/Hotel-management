@@ -8,7 +8,7 @@ import csv
 import string
 
 # CSV file path
-csv_path = r"customer_data_v3.csv"
+csv_path = r"customer_data.csv"
 
 # Database connection
 db = mysql.connector.connect(host='localhost', user='root', password='VIT1234', database='HOTEL_MANAGEMENT')
